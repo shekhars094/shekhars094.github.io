@@ -6,4 +6,25 @@ function transitionEffect() {
   firstPageContainer.style.transition = "background-color 1000ms linear";
 }
 
-setTimeout(transitionEffect, 1000);
+function removeElement() {
+  let firstPageContainer = document.querySelector(".first-page-container");
+  firstPageContainer.remove();
+}
+
+setTimeout(function () {
+  transitionEffect();
+}, 1000);
+
+setTimeout(function () {
+  let navigation = document.querySelector(".navigation-container");
+  let firstPageContainer = document.querySelector(".first-page-container");
+
+  navigation.scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+  });
+
+  setTimeout(() => {
+    firstPageContainer.remove();
+  }, 1000);
+}, 3000);
