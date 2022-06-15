@@ -23,3 +23,23 @@
   color: white;
   font-style: italic;
 }
+
+.navigation-page-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 88px;
+  width: inherit;
+  position: sticky;
+  top: 0;
+  padding: 24px 128px;
+  height: 100vh;
+  width: 100vw;
+}
