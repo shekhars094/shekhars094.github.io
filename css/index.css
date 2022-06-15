@@ -19,6 +19,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  padding-left: 128px;
 }
 
 .navigation-container {
@@ -46,13 +47,11 @@
   font-weight: 400;
   font-size: 40px;
   line-height: 47px;
-  padding-left: 128px;
   margin-top: 88px;
 }
 
 .about-me-container {
   display: flex;
-  margin-left: 128px;
   margin-top: 30px;
 }
 
@@ -74,4 +73,32 @@
 
 .about-my-work-item {
   margin-top: 18px;
+}
+
+.skill-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 88px;
+}
+
+.skill-heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+.skill-list {
+  margin-right: 12px;
+}
+
+.skill-list-container {
+  margin-top: 20px;
+}
+
+.skill-seperator {
+  height: 6px;
+  width: 6px;
+  color: #d9d9d9;
+  margin-right: 12px;
 }

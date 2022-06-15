@@ -1,3 +1,7 @@
+window.userData = {
+  lightMode: true,
+};
+
 function transitionEffect() {
   let firstPageContainer = document.querySelector(".first-page-container");
   let image = document.querySelector(".logo-image");
@@ -9,6 +13,24 @@ function transitionEffect() {
 function removeElement() {
   let firstPageContainer = document.querySelector(".first-page-container");
   firstPageContainer.remove();
+}
+
+function darkModeToggle() {
+  if (window.userData.lightMode) {
+    let body = document.querySelector("body");
+    let navLogo = document.querySelector(".nav-logo");
+    navLogo.src = "./images/shashi_logo_light.svg";
+    body.style.backgroundColor = "#000000";
+    body.style.color = "#ffffff";
+    window.userData.lightMode = false;
+  } else {
+    let body = document.querySelector("body");
+    let navLogo = document.querySelector(".nav-logo");
+    navLogo.src = "./images/shashi_large_logo_dark.svg";
+    body.style.color = "#000000";
+    body.style.backgroundColor = "#ffffff";
+    window.userData.lightMode = true;
+  }
 }
 
 setTimeout(function () {
