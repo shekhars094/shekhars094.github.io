@@ -30,6 +30,48 @@
   position: sticky;
   top: 0;
   padding: 24px 128px;
-  height: 100vh;
   width: 100vw;
+}
+
+.nav-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  margin-right: 40px;
+}
+
+.who-iam-heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+  padding-left: 128px;
+  margin-top: 88px;
+}
+
+.about-me-container {
+  display: flex;
+  margin-left: 128px;
+  margin-top: 30px;
+}
+
+.what-ido {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.about-my-work {
+  margin-top: 10px;
+  padding-left: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.about-my-work-item {
+  margin-top: 18px;
 }

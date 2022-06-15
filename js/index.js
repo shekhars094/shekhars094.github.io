@@ -26,5 +26,5 @@ setTimeout(function () {
 
   setTimeout(() => {
     firstPageContainer.remove();
-  }, 1000);
+  }, 500);
 }, 3000);
