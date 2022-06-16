@@ -10,11 +10,6 @@ function transitionEffect() {
   firstPageContainer.style.transition = "background-color 1000ms linear";
 }
 
-function removeElement() {
-  let firstPageContainer = document.querySelector(".first-page-container");
-  firstPageContainer.remove();
-}
-
 function darkModeToggle() {
   if (window.userData.lightMode) {
     let body = document.querySelector("body");
