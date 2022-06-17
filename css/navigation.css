@@ -1,0 +1,42 @@
+.navigation-page-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 128px;
+}
+.navigation-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 88px;
+  width: inherit;
+  position: sticky;
+  top: 0;
+  padding: 24px 128px;
+  width: 100vw;
+}
+.nav-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  margin-right: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .navigation-page-container {
+    padding-left: 5%;
+  }
+  .navigation-container {
+    margin-left: 30px;
+    padding: 24px 24px;
+  }
+  .nav-item {
+    margin-right: 0;
+  }
+  .nav-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
