@@ -5,23 +5,31 @@
   flex-direction: column;
   padding-left: 128px;
 }
+
 .navigation-container {
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
-  height: 88px;
-  width: inherit;
+  height: 98px;
   position: sticky;
   top: 0;
-  padding: 24px 128px;
+  padding: 24px 40px;
   width: 100vw;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
 }
 .nav-item {
   font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
   margin-right: 40px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #000000;
 }
 
 @media screen and (max-width: 768px) {

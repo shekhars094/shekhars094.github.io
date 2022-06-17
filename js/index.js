@@ -21,7 +21,7 @@ function darkModeToggle() {
   } else {
     let body = document.querySelector("body");
     let navLogo = document.querySelector(".nav-logo");
-    navLogo.src = "./images/shashi_large_logo_dark.svg";
+    navLogo.src = "./images/shashi_small_logo_dark.svg";
     body.style.color = "#000000";
     body.style.backgroundColor = "#ffffff";
     window.userData.lightMode = true;

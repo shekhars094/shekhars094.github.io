@@ -1,0 +1,43 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 40px;
+  line-height: 47px;
+  font-weight: 400;
+  color: black;
+  font-family: "Roboto";
+}
+
+.contact-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+.contact-list-email {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration-line: underline;
+}
+
+.contact-list-social {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.contact-list-linkedin {
+    margin-right: 36px;
+
+}
+
+.contact-list-email {
+
+}
