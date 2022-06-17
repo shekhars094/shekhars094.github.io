@@ -106,3 +106,29 @@
 .dark-mode {
   cursor: pointer;
 }
+
+
+@media screen and (max-width: 768px) {
+
+  .navigation-page-container {
+    padding-left: 5%;
+  }
+  .navigation-container {
+    margin-left: 30px;
+    padding: 24px 24px;
+  }
+
+  .nav-item {
+    margin-right: 0;
+  }
+
+  .who-iam-heading {
+    font-size: 32px;
+    line-height: 39px;
+    margin-top: 64px;
+  }
+.nav-container {
+  display: flex;
+  flex-direction: column;
+}
+}
