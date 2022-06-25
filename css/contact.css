@@ -6,6 +6,7 @@
   font-weight: 400;
   color: black;
   font-family: "Roboto";
+  margin-top: 86px;
 }
 
 .contact-list-container {
@@ -14,6 +15,7 @@
   justify-content: space-between;
   margin-top: 20px;
   margin-right: 40px;
+  margin-top: 88px;
 }
 
 .contact-list-email {
