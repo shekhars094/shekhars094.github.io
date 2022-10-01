@@ -1,10 +1,13 @@
 {
+    "version": "0.2.0",
     "configurations": [
         {
-            "type": "pwa-msedge",
-            "name": "http://127.0.0.1:3000/index.html",
-            "request": "launch",
-            "url": "http://127.0.0.1:3000/index.html"
-        }
+            "name": "Attach to Chrome",
+            "port": 3000,
+            "request": "attach",
+            "type": "chrome",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}"
+        },
     ]
 }
