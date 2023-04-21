@@ -1,126 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/navigation.css" />
+    <link rel="stylesheet" href="css/contact.css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/index.css" />
-  <link rel="stylesheet" href="css/navigation.css" />
-  <link rel="stylesheet" href="css/contact.css" />
+    <title>Shashi Shekhar</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+  </head>
 
-  <title>Shashi Shekhar</title>
-  <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
-</head>
+  <body>
+    <!-- First Page -->
+    <section class="first-page-container">
+      <img
+        class="logo-image"
+        src="./images/shashi_large_logo_dark.svg"
+        alt="logo"
+      />
+    </section>
 
-<body>
-  <!-- First Page -->
-  <section class="first-page-container">
-    <img class="logo-image" src="./images/shashi_large_logo_dark.svg" alt="logo" />
-  </section>
+    <!-- Naviagation Header -->
 
-  <!-- Naviagation Header -->
+    <nav class="navigation-container">
+      <span>
+        <img
+          src="./images/shashi_small_logo_dark.svg"
+          class="nav-logo"
+          alt="logo"
+        />
+      </span>
+      <span class="nav-container">
+        <span class="nav-item">Work</span>
+        <span class="nav-item"><a href="" target="_blank">Resume</a></span>
+        <span class="nav-item">Contact</span>
+        <span class="nav-item dark-mode" onclick="darkModeToggle()">
+          Dark Mode</span
+        >
+      </span>
+    </nav>
 
-  <nav class="navigation-container">
-    <span>
-      <img src="./images/shashi_small_logo_dark.svg" class="nav-logo" alt="logo" />
-    </span>
-    <span class="nav-container">
-      <span class="nav-item">Work</span>
-      <span class="nav-item"><a href="" target="_blank">Resume</a></span>
-      <span class="nav-item">Contact</span>
-      <span class="nav-item dark-mode" onclick="darkModeToggle()">
-        Dark Mode</span>
-    </span>
-  </nav>
+    <!-- Content Page -->
 
-  <!-- Content Page -->
-
-  <section class="navigation-page-container">
-    <h2 class="who-iam-heading">I’m a Software Engineer at Authorcafe</h2>
-    <div class="about-me-container">
-      <h3 class="what-ido">
-        I build high quality software and web experiences that
-      </h3>
-      <div class="about-my-work">
-        <div>Drives Customer Engagement</div>
-        <div class="about-my-work-item">Makes the User Happy</div>
-        <div class="about-my-work-item">makes PM pround</div>
-        <div class="about-my-work-item">gets designer awe of their work</div>
+    <section class="navigation-page-container">
+      <h2 class="who-iam-heading">I’m a Software Engineer at Authorcafe</h2>
+      <div class="about-me-container">
+        <h3 class="what-ido">
+          I build high quality software and web experiences that
+        </h3>
+        <div class="about-my-work">
+          <div>Drives Customer Engagement</div>
+          <div class="about-my-work-item">Makes the User Happy</div>
+          <div class="about-my-work-item">makes PM pround</div>
+          <div class="about-my-work-item">gets designer awe of their work</div>
+        </div>
       </div>
-    </div>
 
-    <!-- Experience -->
+      <!-- Experience -->
 
-    <div class="experienc-container">
-      <h2>Experience</h2>
-      <div>
-        <h4>Authorcafe</h4>
-        <div>2 Years</div>
+      <div class="experienc-container">
+        <h2>Experience</h2>
+        <div>
+          <h4>Authorcafe</h4>
+          <div>2 Years</div>
+        </div>
       </div>
-    </div>
 
-    <!-- Tech Skill section -->
+      <!-- Tech Skill section -->
 
-    <div class="skill-container">
-      <h3 class="skill-heading">Tech/skills</h3>
-      <div class="skill-list-container">
-        <span class="skill-list">HTML</span>
-        <span class="skill-seperator">&#8226;</span>
-        <span class="skill-list">CSS</span>
-        <span class="skill-seperator">&#8226;</span>
-        <span class="skill-list">Javascript</span>
-        <span class="skill-seperator">&#8226;</span>
-        <span class="skill-list">Typescript</span>
-        <span class="skill-seperator">&#8226;</span>
-        <span class="skill-list">NodeJs</span>
-        <span class="skill-seperator">&#8226;</span>
-        <span class="skill-list">MYSQL</span>
-        <span class="skill-seperator">&#8226;</span>
-        <span class="skill-list">Python</span>
-        <span class="skill-seperator">&#8226;</span>
-        <span class="skill-list">MongoDB</span>
-        <span class="skill-seperator">&#8226;</span>
-        <span class="skill-list">React</span>
-        <span class="skill-seperator">&#8226;</span>
-        <span class="skill-list">Nextjs</span>
-        <span class="skill-seperator">&#8226;</span>
-        <span class="skill-list">PHP</span>
-        <span class="skill-seperator">&#8226;</span>
-        <span class="skill-list">Laravel</span>
+      <div class="skill-container">
+        <h3 class="skill-heading">Tech/skills</h3>
+        <div class="skill-list-container">
+          <span class="skill-list">HTML</span>
+          <span class="skill-seperator">&#8226;</span>
+          <span class="skill-list">CSS</span>
+          <span class="skill-seperator">&#8226;</span>
+          <span class="skill-list">Javascript</span>
+          <span class="skill-seperator">&#8226;</span>
+          <span class="skill-list">Typescript</span>
+          <span class="skill-seperator">&#8226;</span>
+          <span class="skill-list">React</span>
+          <span class="skill-seperator">&#8226;</span>
+          <span class="skill-list">Nextjs</span>
+        </div>
       </div>
-    </div>
 
+      <!-- Projects Section -->
 
-    <!-- Projects Section -->
+      <!-- Blogs Section -->
 
+      <!-- Contact Section -->
 
+      <div class="contact-container">
+        <div>Contact Me</div>
+        <div class="contact-list-container">
+          <span class="contact-list-email">shekhars094@gmail.com </span>
+          <span class="contact-list-social">
+            <span class="contact-list-linkedin"
+              ><a
+                href="https://www.linkedin.com/in/shashi-shekhar-612728113/"
+                target="_blank"
+                ><img
+                  src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+                  height="20"
+                  width="20" /></a
+            ></span>
+            <span class="contact-list-linkedin"
+              ><a href="https://twitter.com/shekhars094" target="_blank"
+                ><img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCA9a1YBl7FI-LDF5YlaG03Q5CE01zyKGimt2k48Qf&s"
+                  height="20"
+                  width="20" /></a
+            ></span>
 
-    <!-- Blogs Section -->
-
-    <!-- Contact Section -->
-
-    <div class="contact-container">
-      <div>Contact Me</div>
-      <div class="contact-list-container">
-        <span class="contact-list-email">shekhars094@gmail.com </span>
-        <span class="contact-list-social">
-          <span class="contact-list-linkedin"><a href="https://www.linkedin.com/in/shashi-shekhar-612728113/"
-              target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" height="20"
-                width="20" /></a></span>
-          <span class="contact-list-linkedin"><a href="https://twitter.com/shekhars094" target="_blank"><img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCA9a1YBl7FI-LDF5YlaG03Q5CE01zyKGimt2k48Qf&s"
-                height="20" width="20" /></a></span>
-
-          <span class="contact-list-linkedin"><a href="https://github.com/shekhars094" target="_blank"><img
-                src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Logo.png"
-                height="20" width="40" /></a></span>
-        </span>
+            <span class="contact-list-linkedin"
+              ><a href="https://github.com/shekhars094" target="_blank"
+                ><img
+                  src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Logo.png"
+                  height="20"
+                  width="40" /></a
+            ></span>
+          </span>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <script src="./js/index.js"></script>
-</body>
-
+    <script src="./js/index.js"></script>
+  </body>
 </html>
